@@ -4,7 +4,7 @@
 **Prerequisites**: plan.md ✓, research.md ✓, data-model.md ✓, contracts/ ✓, quickstart.md ✓
 
 ## Phase 3.1: Setup
-- [ ] T001 Create project structure and configuration files
+- [x] T001 Create project structure and configuration files
   ```
   src/
   ├── models/
@@ -17,13 +17,13 @@
   ├── integration/
   └── unit/
   ```
-- [ ] T002 Initialize Python project with FastAPI and dependencies:
+- [x] T002 Initialize Python project with FastAPI and dependencies:
   - FastAPI, Pydantic, aiofiles
   - python-jose, structlog
   - pytest, pytest-asyncio
-- [ ] T003 [P] Configure linting and formatting (black, isort, flake8)
-- [ ] T004 [P] Setup pre-commit hooks for code quality
-- [ ] T005 Create initial configuration management
+- [x] T003 [P] Configure linting and formatting (black, isort, flake8)
+- [x] T004 [P] Setup pre-commit hooks for code quality
+- [x] T005 Create initial configuration management
   - Default settings
   - Environment-based overrides
   - Validation schema
